@@ -1,0 +1,44 @@
+/* Scope all welcome styles under .welcome-page */
+.welcome-page {
+    height: 100vh; /* full viewport height */
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for welcome message */
+.welcome-page .welcome-container {
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    width: 400px;
+    text-align: center;
+}
+
+/* Welcome message */
+.welcome-page .welcome-container h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Logout button */
+.welcome-page .welcome-container button {
+    padding: 14px 25px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.welcome-page .welcome-container button:hover {
+    background-color: #ff2a3c;
+    transform: translateY(-2px);
+}
